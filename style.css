@@ -69,3 +69,21 @@ ul li {
 .img-row img:hover {
     transform: scale(1.05);
 }
+
+/* FOOTER */
+footer {
+    margin-top: 50px;
+    background: linear-gradient(135deg, #0070c9, #4a90e2);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+footer p {
+    margin: 0;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
