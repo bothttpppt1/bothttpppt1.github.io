@@ -1,4 +1,4 @@
-
+/* GENERAL PAGE STYLE */
 body {
     background: #f5f7fa;
     font-family: "Trebuchet MS", Arial, sans-serif;
@@ -6,6 +6,7 @@ body {
     padding: 20px;
 }
 
+/* PANEL / HEADER */
 .panel {
     background: linear-gradient(135deg, #4a90e2, #0070c9);
     padding: 20px;
@@ -22,7 +23,7 @@ body {
     letter-spacing: 1px;
 }
 
-
+/* MAIN INFO */
 #info1 {
     font-size: 20px;
     margin-bottom: 30px;
@@ -31,8 +32,14 @@ body {
     border-left: 6px solid #0070c9;
     border-radius: 10px;
     box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    transition: transform 0.25s ease-in-out;
 }
 
+#info1:hover {
+    transform: scale(1.02);
+}
+
+/* SECTION TITLES */
 .section-title {
     color: #0070c9;
     font-size: 26px;
@@ -40,6 +47,7 @@ body {
     text-decoration: underline;
 }
 
+/* LISTS */
 ul {
     background: #ffffff;
     padding: 20px;
@@ -53,6 +61,7 @@ ul li {
     font-size: 18px;
 }
 
+/* IMAGE ROWS */
 .img-row {
     margin-top: 15px;
     margin-bottom: 35px;
@@ -66,6 +75,7 @@ ul li {
     transition: transform 0.25s ease-in-out;
 }
 
+/* Hover Zoom Effect */
 .img-row img:hover {
     transform: scale(1.05);
 }
@@ -77,13 +87,18 @@ footer {
     padding: 20px;
     border-radius: 20px;
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 18px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: transform 0.25s ease-in-out;
 }
 
 footer p {
     margin: 0;
     letter-spacing: 0.5px;
     font-weight: bold;
+}
+
+footer:hover {
+    transform: scale(1.02);
 }
